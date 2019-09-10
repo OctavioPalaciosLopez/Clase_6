@@ -1,0 +1,40 @@
+************* PARA *****************
+INICIO
+    kilosXSemana = 2
+    pesoIdeal = 70
+    
+    PARA peso = 80 MIENTRAS peso > pesoIdeal DISMINUYE peso = peso - kilosXSemana 
+        semanas = semanas + 1
+    
+    FIN-PARA
+    ESCRIBE semanas
+FIN
+
+*************  MIENTRAS *****************
+INICIO
+    LEER peso
+    kilosXSemana = 2
+    pesoIdeal = 85
+
+    MIENTRAS peso > pesoIdeal
+        peso = peso - kilosXSemana 
+        semanas = semanas + 1 
+
+    FIN-MIENTRAS 
+    ESCRIBE semanas
+FIN
+*************  HACER-MIENTRAS *****************
+INICIO
+    LEER peso
+    kilosXSemana = 2
+    pesoIdeal = 85
+
+    
+    HACER
+        peso = peso - kilosXSemana 
+        semanas = semanas + 1 
+
+    MIENTRAS peso > pesoIdeal
+
+    ESCRIBE semanas
+FIN
