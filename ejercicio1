@@ -1,0 +1,38 @@
+************* PARA *****************
+INICIO
+    LEER num1
+    LEER num2
+
+    PARA numActual = num1 MIENTRAS numActual <= num2 AUMENTA numActual = numActual + 1
+        ESCRIBE numActual
+    
+    FIN-PARA
+FIN
+
+*************  MIENTRAS *****************
+INICIO
+    LEER num1
+    LEER num2
+
+    numActual = num1
+
+    MIENTRAS numActual <= num2
+        ESCRIBE numActual
+        numActual = numActual +1
+    
+    FIN-MIENTRAS  
+FIN
+*************  HACER-MIENTRAS *****************
+INICIO
+    LEER num1
+    LEER num2
+
+    numActual = num1
+    
+    HACER
+        ESCRIBE numActual
+        numActual = numActual +1
+
+    MIENTRAS numActual <= num2
+    
+FIN
